@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href=""https://fonts.googleapis.com/css?family=Montserrat"
+    rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="css/style.css" />
+    <title>JustStreamIt!</title>
+    <script
+      src="https://kit.fontawesome.com/140f901699.js"
+      crossorigin="anonymous"
+    ></script>
+  </head>
+  <body>
+    <header>
+      <div class="inner">
+        <div class="logo">
+          <div>
+            <img src="img/16004298835178_P5.png" alt="logo" />
+          </div>
+        </div>
+        <nav>
+          <li>
+            <span><a href="">Home</a></span>
+          </li>
+          <li>
+            <span><a href="#catStart">Categories</a></span>
+          </li>
+        </nav>
+      </div>
+    </header>
+    <hr />
+    <div class="modal-bg" id="infoModal">
+      <div class="modal">
+        <span class="modal-close">x</span>
+        <div class="modal-movie-container">
+          <div class="modal-movie-cover">
+            <img src="" alt="" id="mimage" />
+          </div>
+          <div class="modal-movie-info">
+            <h1 id="movie-title"></h1>
+            <strong>Genre:</strong>
+            <p id="movie-genre"></p>
+            <strong>Release-date:</strong>
+            <p id="release-date"></p>
+            <strong>MPAA rating:</strong>
+            <p id="mpaa-rating"></p>
+            <strong>IMDB:</strong>
+            <p id="imdb-score"></p>
+            <strong>Director:</strong>
+            <p id="movie-director"></p>
+            <strong>Actors:</strong>
+            <p id="movie-actors"></p>
+            <strong>Duration:</strong>
+            <p id="movie-duration"></p>
+            <strong>Country of origin:</strong>
+            <p id="movie-origin"></p>
+            <strong>Box Office result:</strong>
+            <p id="movie-office-result"></p>
+            <strong>Movie summary:</strong>
+            <p id="movie-summary"></p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <section class="best-movie">
+      <div class="best-movie-container">
+        <div class="best-movie-image">
+          <img src="" alt="" id="best-image" />
+        </div>
+        <div class="best-movie-info">
+          <h1 id="best-title"></h1>
+          <button id="play">
+            <i class="fa-regular fa-circle-play"></i> Play
+          </button>
+          <button id="info">
+            <i class="fa-solid fa-circle-info"></i>
+          </button>
+
+          <p id="best-summary"></p>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="category-headline">
+        <h1>Top-Rated Movies</h1>
+      </div>
+      <div class="category-carousel">
+        <div class="leftButton" id="ButtonLeft">
+          <i class="far fa-arrow-alt-circle-left"></i>
+        </div>
+        <div class="carousel" id="genre_"></div>
+        <div class="rightButton" id="ButtonRight">
+          <i class="far fa-arrow-alt-circle-right"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="category-headline" id="catStart">
+        <h1>Crime</h1>
+      </div>
+      <div class="category-carousel">
+        <div class="leftButton" id="crimeButtonLeft">
+          <i class="far fa-arrow-alt-circle-left"></i>
+        </div>
+        <div class="carousel" id="genre_crime"></div>
+        <div class="rightButton" id="crimeButtonRight">
+          <i class="far fa-arrow-alt-circle-right"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="category-headline">
+        <h1>Fantasy</h1>
+      </div>
+      <div class="category-carousel">
+        <div class="leftButton" id="fantasyButtonLeft">
+          <i class="far fa-arrow-alt-circle-left"></i>
+        </div>
+        <div class="carousel" id="genre_fantasy"></div>
+        <div class="rightButton" id="fantasyButtonRight">
+          <i class="far fa-arrow-alt-circle-right"></i>
+        </div>
+      </div>
+    </section>
+
+    <section class="categories">
+      <div class="category-headline">
+        <h1>Adventure</h1>
+      </div>
+      <div class="category-carousel">
+        <div class="leftButton" id="adventureButtonLeft">
+          <i class="far fa-arrow-alt-circle-left"></i>
+        </div>
+        <div class="carousel" id="genre_adventure"></div>
+        <div class="rightButton" id="adventureButtonRight">
+          <i class="far fa-arrow-alt-circle-right"></i>
+        </div>
+      </div>
+    </section>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
