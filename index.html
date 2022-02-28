@@ -4,14 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href=""https://fonts.googleapis.com/css?family=Montserrat"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" />
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <title>JustStreamIt!</title>
-    <script
-      src="https://kit.fontawesome.com/140f901699.js"
-      crossorigin="anonymous"
-    ></script>
+    <script src="https://kit.fontawesome.com/140f901699.js" crossorigin="anonymous"></script>
   </head>
   <body>
     <header>
@@ -22,25 +18,28 @@
           </div>
         </div>
         <nav>
-          <li>
-            <span><a href="">Home</a></span>
-          </li>
-          <li>
-            <span><a href="#catStart">Categories</a></span>
-          </li>
+          <ul>
+            <li>
+              <span><a href="">Home</a></span>
+            </li>
+            <li>
+              <span><a href="#catStart">Categories</a></span>
+            </li>
+          </ul>
         </nav>
       </div>
     </header>
     <hr />
+
     <div class="modal-bg" id="infoModal">
       <div class="modal">
         <span class="modal-close">x</span>
         <div class="modal-movie-container">
           <div class="modal-movie-cover">
-            <img src="" alt="" id="mimage" />
+            <img src="placeholder.jpg" alt="" id="mimage" />
           </div>
           <div class="modal-movie-info">
-            <h1 id="movie-title"></h1>
+            <h1 id="movie-title">title</h1>
             <strong>Genre:</strong>
             <p id="movie-genre"></p>
             <strong>Release-date:</strong>
@@ -69,17 +68,16 @@
     <section class="best-movie">
       <div class="best-movie-container">
         <div class="best-movie-image">
-          <img src="" alt="" id="best-image" />
+          <img src="placeholder.jpg" alt="" id="best-image" />
         </div>
         <div class="best-movie-info">
-          <h1 id="best-title"></h1>
+          <h2 id="best-title">title</h2>
           <button id="play">
             <i class="fa-regular fa-circle-play"></i> Play
           </button>
           <button id="info">
             <i class="fa-solid fa-circle-info"></i>
           </button>
-
           <p id="best-summary"></p>
         </div>
       </div>
@@ -87,7 +85,7 @@
 
     <section class="categories">
       <div class="category-headline">
-        <h1>Top-Rated Movies</h1>
+        <h3>Top-Rated Movies</h3>
       </div>
       <div class="category-carousel">
         <div class="leftButton" id="ButtonLeft">
@@ -102,7 +100,7 @@
 
     <section class="categories">
       <div class="category-headline" id="catStart">
-        <h1>Crime</h1>
+        <h3>Crime</h3>
       </div>
       <div class="category-carousel">
         <div class="leftButton" id="crimeButtonLeft">
@@ -117,7 +115,7 @@
 
     <section class="categories">
       <div class="category-headline">
-        <h1>Fantasy</h1>
+        <h3>Fantasy</h3>
       </div>
       <div class="category-carousel">
         <div class="leftButton" id="fantasyButtonLeft">
@@ -132,7 +130,7 @@
 
     <section class="categories">
       <div class="category-headline">
-        <h1>Adventure</h1>
+        <h3>Adventure</h3>
       </div>
       <div class="category-carousel">
         <div class="leftButton" id="adventureButtonLeft">

@@ -9,7 +9,7 @@
 header {
   width: 100vw;
   height: 100px;
-  border-bottom: 10px, white;
+  border-bottom: 10px white;
 }
 
 header .inner {
@@ -37,11 +37,12 @@ header nav {
   height: 100%;
 }
 
-header nav li {
+header nav li{
   display: table;
   height: 100%;
   float: left;
   margin-right: 40px;
+  margin-top: 60px;
 }
 
 header nav span {
@@ -51,7 +52,7 @@ header nav span {
 
 header nav a {
   color: #fdfdfd;
-  font-size: 16pt;
+  font-size: 14pt;
 }
 
 header nav a:hover {
@@ -148,7 +149,7 @@ p {
   align-items: center;
   text-align: center;
 }
-.best-movie-container h1 {
+.best-movie-container h2 {
   font-size: 26pt;
   margin-bottom: 15px;
 }
